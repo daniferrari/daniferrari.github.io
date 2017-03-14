@@ -4,7 +4,7 @@ body { background-color:#e6ccff; /*background: linear-gradient(#e6ccff, white); 
 
 /*   Menu   */
 
-#menu { text-align: center; padding-top: 10px; }
+#menu { text-align: center; padding-top: 10px; padding: 25px;}
 
 #menu li { display: inline; color: #c68c53; cursor: pointer; padding: 15px; font-family: 'Pacifico', cursive;}
 
@@ -26,18 +26,22 @@ body { background-color:#e6ccff; /*background: linear-gradient(#e6ccff, white); 
 
 #imagem img:hover { opacity: 1.0;}
 
-#fundo-desenho {z-index: -20; position: relative; width: 85%; height: 100px; background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ; margin: auto; top: -65px;}
+#fundo-desenho {  z-index: -20; position: relative; width: 85%; height: 100px; background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ; margin: auto; top: -65px;}
 
-#mensagem { width: 50%; margin: auto; position: relative; top: -100px; color: #c68c53; font-family: 'Pacifico', cursive; text-align: center;}
+#mensagem { width: 50%; margin: auto; position: relative; top: -100px; color: #c68c53; font-family: 'Pacifico', cursive; text-align: center; text-shadow: 2px 2px white;}
 
-.fa-quote-right, .fa-quote-left { color: white; }
+.fa-quote-right, .fa-quote-left { color: white; text-shadow: 2px 2px #c68c53;}
+
+#titulo-lep .fa-heart { text-shadow: 2px 2px red; }
 
 
 /*footer*/
 
-footer{position: relative; bottom: 0px; color: #c68c53; border-top: 20px solid white; border-bottom: 20px solid white; width: 100%; left: 0px; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;}
+footer{padding: 20px; position: relative; bottom: 0px; color: #c68c53; border-top: 20px solid white; border-bottom: 20px solid white; width: 100%; left: 0px; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;}
 
 footer .fa-heart { color: red; }
+
+
 
 /*  Mobile  */
 @media screen and (max-width: 580px) {
