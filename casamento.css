@@ -34,10 +34,12 @@ body { background-color:#e6ccff; /*background: linear-gradient(#e6ccff, white); 
 
 #titulo-lep .fa-heart { text-shadow: 2px 2px red; }
 
+#titulo-lep { text-shadow: 2px 2px black; }
+
 
 /*footer*/
 
-footer{padding: 20px; position: relative; bottom: 0px; color: #c68c53; border-top: 20px solid white; border-bottom: 20px solid white; width: 100%; left: 0px; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;}
+footer{font-family: 'Pacifico', cursive; padding: 20px; position: relative; bottom: 0px; color: #8B008B; border-top: 20px solid white; border-bottom: 20px solid white; width: 100%; left: 0px; text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ;}
 
 footer .fa-heart { color: red; }
 
