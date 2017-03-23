@@ -15,5 +15,6 @@ function abrir_menu (){
 }
 
 function fechar_menu (){
-	document.getElementById("menu_mobile").style = "display: none;"
+	document.getElementById("menu_mobile").style = "display: none;";
+	aux = true;
 }

@@ -51,23 +51,25 @@ footer .fa-heart { color: red; }
 
 #menu_mobile, #botao_menu { display: none;  }
 
-#botao_menu { text-align: center; margin: 30px; color: white; font-family: 'Pacifico', cursive; cursor: pointer; display: inline; }
+#botao_menu { text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer; display: inline;  position: relative; z-index: 100; top: 15px; }
 
-#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #dfbf9f;}
+#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #dfbf9f; }
 
 #fechar { cursor: pointer; }
 
-#menu_mobile {position: relative; top: -20px; font-family: 'Pacifico', cursive; background-color: white; border-radius: 20px; text-align: center; margin-bottom: 30px; width: 75%; border: 2px solid #dfbf9f ; color: #c68c53; margin-left: auto; margin-right: auto;}
+#menu_mobile {position: relative; z-index: 100; top: 25px; font-family: 'Pacifico', cursive; background-color: white; border-radius: 20px; text-align: center; margin-bottom: 30px; width: 75%; border: 2px solid #dfbf9f ; color: #c68c53; margin-left: auto; margin-right: auto;}
 
 #menu_mobile a { color: #c68c53;}
 
-#menu_enfeite_baixo img { width: 180px; height: 80px; margin-top: 10px; }
+#menu_enfeite_baixo img { width: 180px; height: 60px; margin-top: 10px;  }
 
-#menu_enfeite_topo img {width: 180px; height: 80px; -ms-transform: rotate(180deg);  -webkit-transform: rotate(180deg); transform: rotate(180deg); margin-bottom: 10px; }
+#menu_enfeite_topo img {width: 180px; height: 60px; -ms-transform: rotate(180deg);  -webkit-transform: rotate(180deg); transform: rotate(180deg); margin-bottom: 10px; }
 
-#menu_mobile li:hover, #menu_mobile p:hover { color:#dfbf9f; }
+#menu_mobile li:hover { color:#dfbf9f; }
 
-#fechar { float: right; position: relative; right: 15px; top: 10px;}
+#menu_mobile p:hover { color:purple; }
+
+#fechar { float: right; position: relative; right: 15px; top: 10px; background-color: #dfbf9f; color: white; border-radius: 20px; width: 30px; height: 30px;}
 
 
 /*  Mobile  */
@@ -92,6 +94,14 @@ footer .fa-heart { color: red; }
     #menu { display: none; }
 
     #botao_menu { display: block; }
+
+    #titulo { font-size: 12px; margin-top: 50px; }
+
+    #titulo h1 { padding-top: 5px; }
+
+    #titulo-mobile { padding-bottom: 10px; }
+
+    #imagem { position: relative; top: 85px; margin-bottom: 65px;}
 }
 
 @media screen and (max-width: 800px) {
