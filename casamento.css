@@ -4,9 +4,9 @@ body { background-color:#e6ccff; /*background: linear-gradient(#e6ccff, white); 
 
 /*   Menu   */
 
-#menu { text-align: center; padding-top: 10px; padding: 25px;}
+#menu { text-align: center; padding-top: 10px; padding: 35px;}
 
-#menu li { display: inline; color: #c68c53; cursor: pointer; padding: 15px; font-family: 'Pacifico', cursive;}
+#menu li { display: inline; color: #c68c53; cursor: pointer; padding: 15px; font-family: 'Pacifico', cursive; text-shadow: 1px 1px white;}
 
 #menu li:hover { color:#dfbf9f; }
 
@@ -34,7 +34,7 @@ body { background-color:#e6ccff; /*background: linear-gradient(#e6ccff, white); 
 
 #titulo-lep .fa-heart { text-shadow: 2px 2px red; }
 
-#titulo-lep { text-shadow: 2px 2px black; }
+#mensagem_div { padding-bottom: 100px; padding-top: 30px;}
 
 
 /*footer*/
@@ -43,6 +43,31 @@ footer{font-family: 'Pacifico', cursive; padding: 20px; position: relative; bott
 
 footer .fa-heart { color: red; }
 
+#footer_cima { -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+
+#footer_baixo { position: relative; top: 10px; }
+
+/*menu mobile*/
+
+#menu_mobile, #botao_menu { display: none;  }
+
+#botao_menu { text-align: center; margin: 30px; color: white; font-family: 'Pacifico', cursive; cursor: pointer; display: inline; }
+
+#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #dfbf9f;}
+
+#fechar { cursor: pointer; }
+
+#menu_mobile {position: relative; top: -20px; font-family: 'Pacifico', cursive; background-color: white; border-radius: 20px; text-align: center; margin-bottom: 30px; width: 75%; border: 2px solid #dfbf9f ; color: #c68c53; margin-left: auto; margin-right: auto;}
+
+#menu_mobile a { color: #c68c53;}
+
+#menu_enfeite_baixo img { width: 180px; height: 80px; margin-top: 10px; }
+
+#menu_enfeite_topo img {width: 180px; height: 80px; -ms-transform: rotate(180deg);  -webkit-transform: rotate(180deg); transform: rotate(180deg); margin-bottom: 10px; }
+
+#menu_mobile li:hover, #menu_mobile p:hover { color:#dfbf9f; }
+
+#fechar { float: right; position: relative; right: 15px; top: 10px;}
 
 
 /*  Mobile  */
@@ -63,6 +88,25 @@ footer .fa-heart { color: red; }
     #imagem img { width: 300px; height: 200px; }
 
     #fundo-desenho { display: none; }
+
+    #menu { display: none; }
+
+    #botao_menu { display: block; }
 }
 
+@media screen and (max-width: 800px) {
 
+	#titulo { padding-bottom: 80px; width: 95%; padding-left:10px ; padding-right: 10px;}
+
+	#fundo-desenho { display: none; }
+
+	#imagem img{ width: 85%; }
+
+}
+
+@media screen and (min-width: 580px){
+
+	#botao_menu { display: none; }
+
+	#menu_mobile { display: none; }
+}

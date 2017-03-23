@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="casamento.css">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<script src="https://use.fontawesome.com/1fafa650f0.js"></script>
+	<script src="casamento.js"> </script>
 </head>
 <body>
 
@@ -19,6 +20,34 @@
 			<a href="eventos.html"><li>Eventos</li></a>
 			<a href="contato.html"><li>Contato</li></a>
 		</ul> </b>
+	</div>
+
+	<div id="botao_menu" onclick="abrir_menu()">
+		<i class="fa fa-heart" aria-hidden="true"> Menu </i> 
+	</div>
+
+	<div id="menu_mobile">
+		<p id="fechar" onclick="fechar_menu()">X</p>
+		<div id="menu_enfeite_topo">
+			<img class="enfeite-topo" src="foto12.png">
+		</div>
+
+			
+			<ul> <b>
+				<a href="index.html"><li>Inicio</li></a>
+				<a href="galeria.html"><li>Galeria</li></a>
+				<a href="historia.html"><li>Nossa História</li></a>
+				<a href="acomodacoes.html"><li>Acomodações</li></a>
+				<a href="presentes.html"></ABBR><li>Listas de presentes</li></a>
+				<a href="eventos.html"><li>Eventos</li></a>
+				<a href="contato.html"><li>Contato</li></a>
+			</ul> </b>
+
+
+		<div id="menu_enfeite_baixo">
+			<img class="enfeite-topo" src="foto12.png">
+		</div>
+
 	</div>
 
 
@@ -35,10 +64,15 @@
 		<img src="foto.jpg">
 	</div>
 
-	<h2 id="mensagem"><i class="fa fa-quote-left" aria-hidden="true"></i> Convidamos vocês para o nosso casamento que irá ocorrer no dia 18 de Novembro de 2017, na Igreja Dom Bosco, em São José dos Campos. <i class="fa fa-quote-right" aria-hidden="true"></i></h2>
+	<div id="mensagem_div">
+		<h2 id="mensagem"><i class="fa fa-quote-left" aria-hidden="true"></i> Convidamos vocês para o nosso casamento que irá ocorrer no dia 18 de Novembro de 2017, na Igreja Dom Bosco, em São José dos Campos. <i class="fa fa-quote-right" aria-hidden="true"></i></h2>
+	</div>
+
 
 	<footer>
-		<p><i class="fa fa-copyright" aria-hidden="true"></i> Desenvolvido por Daniele Ferrari com  <i class="fa fa-heart" aria-hidden="true"></i> .</p>
+		<img id="footer_cima" src="foto12.png" height="50px" width="150px">
+		<p><i class="fa fa-copyright" aria-hidden="true"></i> Desenvolvido por Daniele Ferrari com  <i class="fa fa-heart" aria-hidden="true"></i> </p>
+		<img id="footer_baixo" src="foto12.png" height="50px" width="150px">
 	</footer>
 
 </body>
