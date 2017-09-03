@@ -1,5 +1,10 @@
-	$(function () { 
+	
+var aux = true;
+
+    $(function () { 
     $(".index").click(function () { 
+        document.getElementById("menu_mobile").style = "display:none";
+        aux = true;
 	    $('html, body').animate({
 	        scrollTop: $("#topo").offset().top
 	    }, 1500);
@@ -7,6 +12,8 @@
 	}); 
 	$(function () { 
     $(".galeria").click(function () { 
+        document.getElementById("menu_mobile").style = "display:none";
+        aux = true;
 	    $('html, body').animate({
 	        scrollTop: $("#galeriadiv").offset().top
 	    }, 1500);
@@ -14,6 +21,8 @@
 	}); 
 	$(function () { 
     $(".historia").click(function () { 
+        document.getElementById("menu_mobile").style = "display:none";
+        aux = true;
 	    $('html, body').animate({
 	        scrollTop: $("#historiadiv").offset().top
 	    }, 1500);
@@ -21,6 +30,8 @@
 	}); 
 	$(function () { 
     $(".acomodacoes").click(function () { 
+        document.getElementById("menu_mobile").style = "display:none";
+        aux = true;
 	    $('html, body').animate({
 	        scrollTop: $("#acomodacoesdiv").offset().top
 	    }, 1500);
@@ -28,6 +39,8 @@
 	}); 
 	$(function () { 
     $(".presentes").click(function () { 
+        document.getElementById("menu_mobile").style = "display:none";
+        aux = true;
 	    $('html, body').animate({
 	        scrollTop: $("#presentesdiv").offset().top
 	    }, 1500);
@@ -35,13 +48,17 @@
 	}); 
 	$(function () { 
     $(".eventosmen").click(function () { 
+        document.getElementById("menu_mobile").style = "display:none";
+        aux = true;
 	    $('html, body').animate({
 	        scrollTop: $("#eventosdiv").offset().top
 	    }, 1500);
    		});
 	}); 
 	$(function () { 
-    $(".contato").click(function () { 
+    $(".contato").click(function () {
+        document.getElementById("menu_mobile").style = "display:none";
+        aux = true; 
 	    $('html, body').animate({
 	        scrollTop: $("#contatodiv").offset().top
 	    }, 1500);
@@ -136,7 +153,6 @@ $(window).scroll(function() {
     }
 });
 
-var aux = true;
 
 function abrir_menu (){
 
