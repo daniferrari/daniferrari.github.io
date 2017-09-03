@@ -23,7 +23,7 @@ body { background-color:rgb(237, 229, 235); }
 
 #data { color: rgb(153, 0, 153); text-align: center; margin-top: 15px; font-family: 'Pacifico', cursive; font-size: 20px; position: relative; top: 170px;}
 
-#titulodiv { position: fixed; z-index: -10; top: -50px;  background: url("images/back1.jpg"); background-size: 100% 50%; height: 120vh; }
+#titulodiv { position: fixed; z-index: -10; top: -50px;  background-size: 100% 50%; height: 120vh; }
 
 #fundo { background-color: white; }
 
@@ -134,9 +134,9 @@ footer .fa-heart { color: red; }
 
 /*menu mobile*/
 
-#mobiletodo { display: none; position: fixed; width: 100%; }
+#mobiletodo { display: none; position: fixed; width: 100%; z-index: 100; }
 
-#botao_menu { text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer; display: inline; z-index: 100; top: 15px; }
+#botao_menu { text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer; display: inline; z-index: 100; top: 15px; z-index: 100; }
 
 #botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #dfbf9f; }
 
@@ -171,11 +171,20 @@ footer .fa-heart { color: red; }
 
 	/* Slider mobile */
 
-	figure { display: block; height: 300px; z-index: -2; overflow: hidden; border: 5px solid white;}
+	figure { height: 350px;}
 
-	#slider img, #slider a { width: 100% !important; height: 300px; }
+	#slider img, #slider a { width: 100% !important; height: 350px; }
 
-	#teste {z-index: -3; width: 300px; height: 400px; margin-right: auto; margin-left: auto; position: relative; top: 120px; }
+	#teste {z-index: -3; width: 400px; height: 450px; top: 120px; }
+
+	#data { top: 120px;}
+
+	/* divs conteudo todas */
+
+
+	#eventosdiv .conteudo { top: 30px; }
+
+	.eventos {  padding: 25px; width: 400px ;  margin-bottom: 10px; margin-top: 30px;  }
 
 }
 
