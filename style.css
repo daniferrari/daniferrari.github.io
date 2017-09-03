@@ -171,7 +171,7 @@ footer .fa-heart { color: red; }
 
 	.partes { min-height: none; max-height: none; width: 100%; height: 1800px; }
 
-	#elementos {  width: 100%; background-color: green;  }
+	#elementos {  width: 100vw; background-color: green;  }
 
 	/* Slider mobile */
 
