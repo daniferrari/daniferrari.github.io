@@ -165,9 +165,9 @@ footer .fa-heart { color: red; }
 
 	/* div principais */
 
-	.conteudo { position: relative; top: 30px; max-width: none; width: 100%; } 
+	.conteudo { position: relative; max-width: none; width: 100vw; } 
 
-	.partes { min-height: 100vh;  max-height: none; width: 100%; }
+	.partes { min-height: 100vh;  max-height: none; width: 100vh; height: 1800px;   }
 
 	/* Slider mobile */
 
