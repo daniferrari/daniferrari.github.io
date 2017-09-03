@@ -136,9 +136,9 @@ footer .fa-heart { color: red; }
 
 #mobiletodo { display: none; position: fixed; width: 100%; z-index: 100; }
 
-#botao_menu { text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer; display: inline; z-index: 100; top: 15px; z-index: 100; }
+#botao_menu {  display: none; text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer;  z-index: 100; top: 15px; }
 
-#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #dfbf9f; }
+#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #dfbf9f; color: purple; }
 
 #fechar { cursor: pointer; }
 
@@ -162,6 +162,8 @@ footer .fa-heart { color: red; }
     #botao_menu { display: block; }
 
     #mobiletodo { display: block; }
+
+	#menu_mobile { display: none; }
 
 	/* div principais */
 
