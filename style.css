@@ -4,10 +4,9 @@ body { background-color:rgb(237, 229, 235); }
 
 * { list-style: none; text-decoration: none; margin: 0px; padding: 0px;}
 
-
 /* Menu */
 
-#menu { text-align: center; position: fixed; padding-top: 25px; z-index: 10; width: 100%; top: 0px;}
+#menu { text-align: center; position: fixed; padding-top: 15px; z-index: 10; width: 100%; top: -10px; background-color: white; height: 40px; }
 
 #menu li { display: inline; color: rgb(241, 189, 232); cursor: pointer; padding: 0 15px 15px 0; font-family: 'Pacifico', cursive; text-shadow: 1px 1px white;}
 
@@ -20,7 +19,7 @@ body { background-color:rgb(237, 229, 235); }
 
 #titulodiv h1 { text-shadow: 2px 1px white; top: 50px;  color:rgb(241, 189, 232); font-family: 'Pacifico', cursive; text-align: center; font-size: 24px;}
 
-.fa-heart { color: rgb(231, 69, 112); padding: 15px;}
+#titulodiv .fa-heart { color: rgb(231, 69, 112); padding: 15px;}
 
 #data { color: rgb(153, 0, 153); text-align: center; margin-top: 15px; font-family: 'Pacifico', cursive; font-size: 20px; position: relative; top: 170px;}
 
@@ -123,19 +122,19 @@ footer .fa-heart { color: red; }
 
 /* Menu extra */
 
-.extra { color: white; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 12; display: none;}
+.extra { color: purple; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 42; -ms-transform: rotate(-7deg);  -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
 
-.extratexto { padding-left: 20px; }
+.extratexto { padding-left: 10px; z-index: 42; padding-top: 10px;}
 
-.teste { background-color: black; height: 90px; position: fixed; top: 0px; line-height: 60px; color: white;  }
+.teste { background-color: white; height: 120px; position: fixed; top: 0px; line-height: 70px; padding-bottom: 50px; border-bottom: 2px solid purple; }
 
-.teste li { color: white !important; }
+.teste li { color: pink !important; }
 
 .teste li:hover { color:  rgb(153, 0, 153) !important; }
 
 /*menu mobile*/
 
-#menu_mobile, #botao_menu, .fa-heart { display: none; visibility: hidden; position: fixed;}
+#menu_mobile, #botao_menu { display: none; visibility: hidden; position: fixed;}
 
 #botao_menu {display: none; text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer; display: inline; z-index: 100; top: 15px; }
 
@@ -169,3 +168,10 @@ footer .fa-heart { color: red; }
 	.partes { min-height: 100vh; width: 100%;  max-height: 5100px;  }
 
 }
+
+@media screen and (max-width: 970px) {
+
+	.extra, .extratexto { display: none; }
+}
+
+body { background-color:rgb(237, 229, 235); }
