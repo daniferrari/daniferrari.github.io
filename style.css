@@ -180,7 +180,7 @@ footer .fa-heart { color: red; }
 
 	#galeriadiv { height: 2500px; }
 
-	footer { width: 120vw;}
+	footer { width: 120vw; }
 
 
 	/* Slider mobile */
@@ -233,6 +233,6 @@ footer .fa-heart { color: red; }
 
 	.partes { max-height: 2000px; }
 
-	footer { margin-top: -280px; bottom: 0px; }
+	footer { bottom: 0px; }
 }
 
