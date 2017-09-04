@@ -172,7 +172,7 @@ footer .fa-heart { color: red; }
 
 	/* div principais */
 
-	.conteudo { position: relative; max-width: none; width: 120vw; background-color:rgb(237, 229, 235); top: 70px;  border: 4px solid green; } 
+	.conteudo { position: relative; max-width: none; width: 120vw; background-color:rgb(237, 229, 235); top: 70px;  border: 4px solid green; margin-right: auto; margin-left: auto;} 
 
 	.partes { min-height: none; max-height: none; min-width: 110vw; width: 120vw; border: 4px solid blue; }
 
