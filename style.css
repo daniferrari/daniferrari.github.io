@@ -217,7 +217,7 @@ footer .fa-heart { color: red; }
 
 @media screen and ( min-width: 1480px ) {
 
-	figure { height: 700px;}
+	figure { height: 71vh; max-height: 600px; }
 
 	#slider img, #slider a { height: 70vh; max-height: 600px; }
 
