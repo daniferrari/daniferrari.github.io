@@ -189,7 +189,7 @@ footer .fa-heart { color: red; }
 
 	#teste {z-index: -3; width: 400px; height: 450px; top: 120px; }
 
-	#data { top: 120px;}
+	#data { top: 250px ; background-color: white; z-index: 20; }
 
 	/* divs conteudo todas */
 
@@ -219,7 +219,7 @@ footer .fa-heart { color: red; }
 
 	#slider img, #slider a { height: 70vh; max-height: 600px; }
 
-	#teste { width: 700px; height: 70vh; max-height: 600px; top: 15vh;  }
+	#teste { width: 700px; height: 70vh; max-height: 600px; top: 15vh; }
 
 	#data { top: 65vh; background-color: white; z-index: 100;}
 
