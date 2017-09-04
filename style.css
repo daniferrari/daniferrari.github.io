@@ -191,7 +191,7 @@ footer .fa-heart { color: red; }
 
 	#slider img, #slider a { width: 100% !important; height: 350px; }
 
-	#teste {z-index: -3; width: 400px; height: 450px; top: 120px; }
+	#teste {z-index: -3; width: 400px; height: 450px; top: 120px; margin-right: auto; margin-left: auto; }
 
 	#data { top: 250px ; background-color: white; z-index: 20; }
 
