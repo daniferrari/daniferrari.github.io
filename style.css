@@ -4,6 +4,8 @@ body { background-color:rgb(237, 229, 235); }
 
 * { list-style: none; text-decoration: none; margin: 0px; padding: 0px;}
 
+i { color: rgb(153, 0, 153); }
+
 /* Menu */
 
 #menu { text-align: center; position: fixed; padding-top: 15px; z-index: 10; width: 100%; top: -10px; background-color: white; height: 40px; }
@@ -37,17 +39,17 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 
 .partes { min-height: 100vh; width: 100%;  max-height: 1100px;  }
 
-#eventosdiv { background-color:rgb(237, 229, 235); height: 800px;  background-size: 100% 100%; border-bottom: 2px solid black; position: relative; top: 40px;}
+#eventosdiv { background-color:rgb(237, 229, 235); height: 800px;  background-size: 100% 100%; border-bottom: 2px solid rgb(153, 0, 153); position: relative; top: 40px;}
 
-#galeriadiv { background-color:rgb(237, 229, 235); height: 1100px;  background-size: 100% 100%;  border-bottom: 2px solid black; position: relative; top: -30px; }
+#galeriadiv { background-color:rgb(237, 229, 235); height: 1100px;  background-size: 100% 100%;  border-top: 2px solid rgb(153, 0, 153); position: relative; top: -30px; }
 
-#historiadiv { background-color:rgb(237, 229, 235); background-size: 100% 100%; border-bottom: 2px solid black; position: relative; top: 100px;}
+#historiadiv { background-color:rgb(237, 229, 235); background-size: 100% 100%; border-bottom: 2px solid rgb(153, 0, 153); position: relative; top: 100px;}
 
-#acomodacoesdiv { background-color:rgb(237, 229, 235); height: 1100px;  background-size: 100% 100%; border-bottom: 2px solid black; position: relative; }
+#acomodacoesdiv { background-color:rgb(237, 229, 235); height: 1100px;  background-size: 100% 100%; border-bottom: 2px solid rgb(153, 0, 153); position: relative; }
 
-#presentesdiv { background-color:rgb(237, 229, 235);  background-repeat: no-repeat; background-size: 100% 100%;   border-bottom: 2px solid black; top: 20px;}
+#presentesdiv { background-color:rgb(237, 229, 235);  background-repeat: no-repeat; background-size: 100% 100%;   border-bottom: 2px solid rgb(153, 0, 153); top: 20px;}
 
-#contatodiv { background-color:rgb(237, 229, 235);  background-size: 100% 100%; border-bottom: 2px solid black; position: relative; top: -40px;}
+#contatodiv { background-color:rgb(237, 229, 235);  background-size: 100% 100%; border-top: 2px solid rgb(153, 0, 153); position: relative; top: -40px;}
 
 #elementos { position: relative; top: 100vh; }
 
@@ -76,7 +78,7 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 
 .acomodacao {font-family: 'Pacifico', cursive; text-align: center; width: 40%; margin: auto;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:25px; border: 2px solid #c68c53; margin-top: 50px; background-color: white;}
 
-.fa-bed, .fa-phone { text-shadow: 2px 2px #e6ccff; color: black;}
+.fa-bed, .fa-phone { text-shadow: 2px 2px #e6ccff; color: rgb(153, 0, 153);}
 
 
 
@@ -114,7 +116,7 @@ figure { display: block; height: 400px; z-index: -2; overflow: hidden; border: 5
 
 /*footer*/
 
-footer { margin-top: -40px; font-family: 'Pacifico', cursive; position: relative; bottom: 0px; color: #8B008B; border-top: 20px solid white; border-bottom: 20px solid white; width: 100%; left: 0px; text-align: center; background-color: white; bottom: 0px;}
+footer { margin-top: -40px; font-family: 'Pacifico', cursive; position: relative; bottom: 0px; color: #8B008B; border-top: 20px solid white; border-bottom: 20px solid white; width: 100%; left: 0px; text-align: center; background-color: white; bottom: 0px; }
 
 footer .fa-heart { color: red; }
 
@@ -142,19 +144,19 @@ footer .fa-heart { color: red; }
 
 #botao_menu {  display: none; text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer;  z-index: 100; top: 15px; }
 
-#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #dfbf9f; color: purple; }
+#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid pink; color: pink; }
 
 #fechar { cursor: pointer; }
 
 #menu_mobile { z-index: 100; top: 25px; font-family: 'Pacifico', cursive; background-color: white; border-radius: 20px; text-align: center; margin-bottom: 30px; width: 75%; border: 2px solid #dfbf9f ; color: #c68c53; margin-left: auto; margin-right: auto;}
 
-#menu_mobile a { color: #c68c53; cursor: pointer; }
+#menu_mobile a { color: rgb(153, 0, 153); cursor: pointer; }
 
-#menu_mobile li:hover { color:#dfbf9f; }
+#menu_mobile li:hover { color:pink; }
 
 #menu_mobile p:hover { color:purple; }
 
-#fechar { float: right;  right: 15px; top: 10px; background-color: #dfbf9f; color: white; border-radius: 20px; width: 30px; height: 30px;}
+#fechar { float: right;  right: 15px; top: 10px; background-color: pink; color: white; border-radius: 20px; width: 30px; height: 30px;}
 
 
 
@@ -172,15 +174,15 @@ footer .fa-heart { color: red; }
 
 	/* div principais */
 
-	.conteudo { position: relative; max-width: none; width: 120vw; background-color:rgb(237, 229, 235); top: 70px; margin-right: auto; margin-left: auto;} 
+	.conteudo { position: relative; max-width: none; width: 130vw; background-color:rgb(237, 229, 235); top: 70px; margin-right: auto; margin-left: auto;} 
 
-	.partes { min-height: none; max-height: none; min-width: 110vw; width: 120vw; }
+	.partes { min-height: none; max-height: none; min-width: 130vw; width: 120vw; }
 
-	#elementos {  width: 120vw; }
+	#elementos {  width: 130vw; }
 
 	#galeriadiv { height: 2500px; }
 
-	footer { width: 120vw; }
+	footer { width: 130vw; }
 
 
 	/* Slider mobile */
@@ -233,6 +235,6 @@ footer .fa-heart { color: red; }
 
 	.partes { max-height: 2000px; }
 
-	footer { bottom: 0px; }
+	footer { bottom: 0px; top: -20px; border-top: 2px solid rgb(153, 0, 153); }
 }
 
