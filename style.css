@@ -167,17 +167,16 @@ footer .fa-heart { color: red; }
 
     #mobiletodo { display: block; }
 
-	#menu_mobile { display: none; }
+	#menu_mobile { display: none; border: 4px solid red; }
+
 
 	/* div principais */
 
-	.conteudo { position: relative; max-width: none; width: 100%; background-color:rgb(237, 229, 235); top: 70px; } 
+	.conteudo { position: relative; max-width: none; width: 100vw; background-color:rgb(237, 229, 235); top: 70px;  border: 4px solid green; } 
 
-	.partes { min-height: none; max-height: none; width: 100%; }
+	.partes { min-height: none; max-height: none; min-width: 110vw; width: 100%; border: 4px solid blue; }
 
-	#elementos {  width: 100vw; }
-
-
+	#elementos {  width: 120vw; }
 
 	#galeriadiv { height: 2500px; }
 
@@ -194,8 +193,7 @@ footer .fa-heart { color: red; }
 
 	/* divs conteudo todas */
 
-
-	#eventosdiv .conteudo { top: 30px; }
+	#eventosdiv .conteudo { top: 30px; border: 4px solid black; }
 
 	.eventos {  padding: 25px; width: 400px ;  margin-bottom: 10px; margin-top: 30px;  }
 
@@ -213,21 +211,23 @@ footer .fa-heart { color: red; }
 	.partes { max-height: 2000px; }
 }
 
+/* Very big screens */
+
 @media screen and ( min-width: 1480px ) {
 
 	figure { height: 700px;}
 
-	#slider img, #slider a { height: 700px; }
+	#slider img, #slider a { height: 70vh; max-height: 600px; }
 
-	#teste { width: 700px; height: 400px; top: 200px;  }
+	#teste { width: 700px; height: 70vh; max-height: 600px; top: 15vh;  }
 
-	#data { top: 600px;}
+	#data { top: 65vh; background-color: white; z-index: 100;}
 
 	.conteudo { max-width: 1250px; margin-left: auto; margin-right: auto; } 
 
-	#galeriadiv .partes { height: 1550px; }
+	#galeriadiv .partes { height: 130vh; max-height: 1400px; }
 
-	#galeriadiv { height: 450px; }
+	#galeriadiv {height: 130vh; max-height: 1400px; }
 
 	.partes { max-height: 2000px; }
 
