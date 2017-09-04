@@ -90,6 +90,8 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px;  }
 
 .eventos p { color: black; }
 
+.eventos img { height: 80px; width: 80px; }
+
 
 /* Slider */
 
@@ -122,7 +124,9 @@ footer .fa-heart { color: red; }
 
 /* Menu extra */
 
-.extra { color: purple; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 42; -ms-transform: rotate(-7deg);  -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
+.fa-heart  { color: red; }
+
+.extra { display: none; color: purple; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 42; -ms-transform: rotate(-7deg);  -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
 
 .extratexto { padding-left: 10px; z-index: 42; padding-top: 10px;}
 
