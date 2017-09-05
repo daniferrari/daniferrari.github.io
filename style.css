@@ -219,6 +219,10 @@ footer .fa-heart { color: red; }
 	#galeriadiv { height: 1400px; }
 
 	.partes { max-height: 2000px; }
+
+	#data { background-color: white; z-index: 20; top: 350px; }
+
+	footer { top: -20px; }
 }
 
 /* Very big screens */
