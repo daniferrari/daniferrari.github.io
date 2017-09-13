@@ -182,7 +182,7 @@ footer .fa-heart { color: red; }
 
 	.conteudo { position: relative; max-width: none; width: 130vw; background-color:rgb(237, 229, 235); top: 70px; margin-right: auto; margin-left: auto;} 
 
-	.partes { min-height: none; max-height: none; min-width: 130vw; width: 120vw; }
+	.partes { min-height: none; max-height: none;  }
 
 	#elementos {  width: 130vw; }
 
