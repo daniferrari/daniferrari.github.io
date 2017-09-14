@@ -1,29 +1,29 @@
 /* GERAIS */
 
-body { background-color:rgb(237, 229, 235); }
+body { background-color:#FFEFDB; }
 
 * { list-style: none; text-decoration: none; margin: 0px; padding: 0px;}
 
-i { color: rgb(153, 0, 153); }
+i { color: #8B8378; }
 
 /* Menu */
 
-#menu { text-align: center; position: fixed; padding-top: 15px; z-index: 10; width: 100%; top: -10px; background-color: white; height: 40px; }
+#menu { text-align: center; position: fixed; padding-top: 15px; z-index: 10; width: 100%; top: -10px; background: url("images/fundo3.png"); height: 40px; }
 
-#menu li { display: inline; color: rgb(241, 189, 232); cursor: pointer; padding: 0 15px 15px 0; font-family: 'Pacifico', cursive; text-shadow: 1px 1px white;}
+#menu li { display: inline; color: #8B8378; cursor: pointer; padding: 0 15px 15px 0; font-family: 'Pacifico', cursive; text-shadow: 1px 1px white;}
 
-#menu ul a li:hover { color:  rgb(153, 0, 153); }
+#menu ul a li:hover { color:  black; }
 
 
 /* Titulo */
 
 #titulo-principal { position: relative; z-index: 10; }
 
-#titulodiv h1 { text-shadow: 2px 1px white; top: 50px;  color:rgb(241, 189, 232); font-family: 'Pacifico', cursive; text-align: center; font-size: 24px;}
+#titulodiv h1 { text-shadow: 2px 1px white; top: 50px;  color:#8B8378; font-family: 'Pacifico', cursive; text-align: center; font-size: 24px; z-index: 100;}
 
 #titulodiv .fa-heart { color: rgb(231, 69, 112); padding: 15px;}
 
-#data { color: rgb(153, 0, 153); text-align: center; margin-top: 15px; font-family: 'Pacifico', cursive; font-size: 20px; position: relative; top: 170px;}
+#data { color: #8B8378; text-align: center; margin-top: 15px; font-family: 'Pacifico', cursive; font-size: 20px; position: relative; top: 170px; z-index: 100;}
 
 #titulodiv { position: fixed; z-index: -10; top: -50px;  background-size: 100% 50%; height: 120vh; }
 
@@ -31,7 +31,7 @@ i { color: rgb(153, 0, 153); }
 
 /* Titulo de todos */
 
-h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; color: rgb(153, 0, 153); }
+h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; color: #8B8378; }
 
 /* Partes- Divisões */
 
@@ -39,17 +39,17 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 
 .partes { min-height: 100vh; width: 100%;  max-height: 1100px;  }
 
-#eventosdiv { background-color:rgb(237, 229, 235); height: 800px;  background-size: 100% 100%; border-bottom: 2px solid rgb(153, 0, 153); position: relative; top: 40px;}
+#eventosdiv { background-color:#FFEFDB; height: 800px;  background-size: 100% 100%; border-bottom: 2px solid #8B8378; position: relative; top: 40px;}
 
-#galeriadiv { background-color:rgb(237, 229, 235); height: 1100px;  background-size: 100% 100%;  border-top: 2px solid rgb(153, 0, 153); position: relative; top: -30px; }
+#galeriadiv { background-color:#FFEFDB; height: 1100px;  background-size: 100% 100%;  border-top: 2px solid #8B8378; position: relative; top: -30px; }
 
-#historiadiv { background-color:rgb(237, 229, 235); background-size: 100% 100%; border-bottom: 2px solid rgb(153, 0, 153); position: relative; top: 100px;}
+#historiadiv { background-color:#FFEFDB; background-size: 100% 100%; border-bottom: 2px solid #8B8378; position: relative; top: 100px;}
 
-#acomodacoesdiv { background-color:rgb(237, 229, 235); height: 1100px;  background-size: 100% 100%; border-bottom: 2px solid rgb(153, 0, 153); position: relative; }
+#acomodacoesdiv { background-color:#FFEFDB; height: 1100px;  background-size: 100% 100%; border-bottom: 2px solid #8B8378; position: relative; }
 
-#presentesdiv { background-color:rgb(237, 229, 235);  background-repeat: no-repeat; background-size: 100% 100%;   border-bottom: 2px solid rgb(153, 0, 153); top: 20px;}
+#presentesdiv { background-color:#FFEFDB;  background-repeat: no-repeat; background-size: 100% 100%;   border-bottom: 2px solid #8B8378; top: 20px;}
 
-#contatodiv { background-color:rgb(237, 229, 235);  background-size: 100% 100%; border-top: 2px solid rgb(153, 0, 153); position: relative; top: -40px;}
+#contatodiv { background-color:#FFEFDB;  background-size: 100% 100%; border-top: 2px solid #8B8378; position: relative; top: -40px;}
 
 #elementos { position: relative; top: 100vh; }
 
@@ -72,17 +72,17 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 
 #conteudo { display: flex; flex-direction: row; flex-wrap: wrap;   }
 
-.foto { flex-grow: 1; }
+.foto { flex-grow: 1; background: url("images/fundo3.png"); }
 
 
 /* Acomodacoes */
 
 
-.hotel { color: rgb(153, 0, 153); font-family: 'Pacifico', cursive; text-align: center;}
+.hotel { color: #8B8378; font-family: 'Pacifico', cursive; text-align: center;}
 
 .acomodacao {font-family: 'Pacifico', cursive; text-align: center; width: 40%; margin: auto;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding:25px; border: 2px solid #c68c53; margin-top: 50px; background-color: white;}
 
-.fa-bed, .fa-phone { text-shadow: 2px 2px #e6ccff; color: rgb(153, 0, 153);}
+.fa-bed, .fa-phone { text-shadow: 2px 2px black; color: #8B8378;}
 
 
 
@@ -90,9 +90,9 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 
 #eventosdiv .conteudo { top: 150px; }
 
-.eventos { font-family: 'Pacifico', cursive; background-color: white; padding: 25px; width: 40%; margin: auto; border: 2px solid  rgb(153, 0, 153); text-align: center; margin-bottom: 10px; margin-top: 30px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.eventos { font-family: 'Pacifico', cursive; background-color: white; padding: 25px; width: 40%; margin: auto; border: 2px solid  #8B8378; text-align: center; margin-bottom: 10px; margin-top: 30px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-.eventos h2 { color:  rgb(153, 0, 153); }
+.eventos h2 { color:  #8B8378; }
 
 .eventos p { color: black; }
 
@@ -120,7 +120,7 @@ figure { display: block; height: 400px; z-index: -2; overflow: hidden; border: 5
 
 /*footer*/
 
-footer { margin-top: -40px; font-family: 'Pacifico', cursive; position: relative; bottom: 0px; color: #8B008B; border-top: 20px solid white; border-bottom: 20px solid white; width: 100%; left: 0px; text-align: center; background-color: white; bottom: 0px; }
+footer { margin-top: -40px; font-family: 'Pacifico', cursive; position: relative; bottom: 0px; color: #8B008B; border-top: 20px solid #FFEFDB; border-bottom: 20px solid #FFEFDB; width: 100%; left: 0px; text-align: center; background-color: #FFEFDB; bottom: 0px; }
 
 footer .fa-heart { color: red; }
 
@@ -132,15 +132,15 @@ footer .fa-heart { color: red; }
 
 .fa-heart  { color: red; }
 
-.extra { display: none; color: purple; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 42; -ms-transform: rotate(-7deg);  -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
+.extra {  display: none; color: black; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 42; -ms-transform: rotate(-7deg);  -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
 
-.extratexto { padding-left: 10px; z-index: 42; padding-top: 10px;}
+.extratexto { padding-left: 10px; z-index: 42; padding-top: 10px; }
 
-.teste { background-color: white; height: 120px; position: fixed; top: 0px; line-height: 70px; padding-bottom: 50px; border-bottom: 2px solid purple; }
+.teste { background: url("images/fundo3.png"); height: 120px; position: fixed; top: 0px; line-height: 70px; padding-bottom: 50px; border-bottom: 2px solid #655220; }
 
-.teste li { color: pink !important; }
+.teste li { color: black !important; }
 
-.teste li:hover { color:  rgb(153, 0, 153) !important; }
+.teste li:hover { color:  #655220 !important; }
 
 /*menu mobile*/
 
@@ -154,7 +154,7 @@ footer .fa-heart { color: red; }
 
 #menu_mobile { z-index: 100; top: 25px; font-family: 'Pacifico', cursive; background-color: white; border-radius: 20px; text-align: center; margin-bottom: 30px; width: 75%; border: 2px solid #dfbf9f ; color: #c68c53; margin-left: auto; margin-right: auto;}
 
-#menu_mobile a { color: rgb(153, 0, 153); cursor: pointer; }
+#menu_mobile a { color: #8B8378; cursor: pointer; }
 
 #menu_mobile li:hover { color:pink; }
 
@@ -180,7 +180,7 @@ footer .fa-heart { color: red; }
 
 	#galeriadiv img {  opacity: 1.0; filter: alpha(opacity=100); }
 
-	.conteudo { position: relative; max-width: none; width: 130vw; background-color:rgb(237, 229, 235); top: 70px; margin-right: auto; margin-left: auto;} 
+	.conteudo { position: relative; max-width: none; width: 130vw; background-color:#FFEFDB; top: 70px; margin-right: auto; margin-left: auto;} 
 
 	.partes { min-height: none; max-height: none;  }
 
@@ -199,7 +199,7 @@ footer .fa-heart { color: red; }
 
 	#teste {z-index: -3; width: 400px; height: 450px; top: 120px; display: table; position: relative; margin: 0 auto; }
 
-	#data { top: 250px ; background-color: white; z-index: 20; }
+	#data { top: 250px ; background-color: white; z-index: 100; }
 
 	/* divs conteudo todas */
 
@@ -220,7 +220,7 @@ footer .fa-heart { color: red; }
 
 	.partes { max-height: 2000px; }
 
-	#data { background-color: white; z-index: 20; top: 350px; }
+	#data { background-color: white; z-index: 80; top: 350px; }
 
 	footer { top: -20px; }
 }
@@ -245,6 +245,6 @@ footer .fa-heart { color: red; }
 
 	.partes { max-height: 2000px; }
 
-	footer { bottom: 0px; top: -20px; border-top: 2px solid rgb(153, 0, 153); }
+	footer { bottom: 0px; top: -20px; border-top: 2px solid #8B8378; }
 }
 
