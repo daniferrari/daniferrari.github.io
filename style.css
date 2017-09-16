@@ -8,9 +8,11 @@ i { color: #8B8378; }
 
 /* Menu */
 
-#menu { text-align: center; position: fixed; padding-top: 15px; z-index: 10; width: 100%; top: -10px; background: url("images/fundo3.png"); height: 40px; }
+#menu { text-align: center; position: fixed; padding-top: 20px; z-index: 10; width: 100%; top: -10px; background: url("images/fundo3.png"); height: 40px; }
 
-#menu li { display: inline; color: #8B8378; cursor: pointer; padding: 0 15px 15px 0; font-family: 'Pacifico', cursive; text-shadow: 1px 1px white;}
+#menu li { display: inline; color: #8B8378; cursor: pointer; padding-right: 10px; font-family: 'Pacifico', cursive; text-shadow: 1px 1px white;}
+
+#menu ul {  }
 
 #menu ul a li:hover { color:  black; }
 
@@ -120,27 +122,29 @@ figure { display: block; height: 400px; z-index: -2; overflow: hidden; border: 5
 
 /*footer*/
 
-footer { margin-top: -40px; font-family: 'Pacifico', cursive; position: relative; bottom: 0px; color: #8B008B; border-top: 20px solid #FFEFDB; border-bottom: 20px solid #FFEFDB; width: 100%; left: 0px; text-align: center; background-color: #FFEFDB; bottom: 0px; }
+footer { margin-top: -40px; font-family: 'Pacifico', cursive; position: relative; bottom: 0px; color: #655220 ; border-top: 20px solid white; border-bottom: 15px solid white; width: 100%; left: 0px; text-align: center; background-color: white; bottom: 0px; }
 
 footer .fa-heart { color: red; }
 
-#footer_cima { -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+#footer_cima { -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); position: relative; top: 10px; }
 
-#footer_baixo { position: relative; top: 10px; }
+#footer_baixo { position: relative; top: 20px; }
+
+#desenv { position: relative; top: 10px; }
 
 /* Menu extra */
 
 .fa-heart  { color: red; }
 
-.extra {  display: none; color: black; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 42; -ms-transform: rotate(-7deg);  -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
+.extra {  display: none; color: #655220 ; font-size: 25px; font-family: 'Pacifico', cursive; position: fixed; text-align: center; z-index: 42; -ms-transform: rotate(-7deg);  -webkit-transform: rotate(-7deg); transform: rotate(-7deg); }
 
-.extratexto { padding-left: 10px; z-index: 42; padding-top: 10px; }
+.extratexto { padding-left: 10px; z-index: 42; padding-top: 25px; }
 
 .teste { background: url("images/fundo3.png"); height: 120px; position: fixed; top: 0px; line-height: 70px; padding-bottom: 50px; border-bottom: 2px solid #655220; }
 
-.teste li { color: black !important; }
+.teste li { color: #655220  !important; }
 
-.teste li:hover { color:  #655220 !important; }
+.teste li:hover { color:  black !important; }
 
 /*menu mobile*/
 
