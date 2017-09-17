@@ -152,7 +152,7 @@ footer .fa-heart { color: red; }
 
 #botao_menu {  display: none; text-align: center;  color: white; font-family: 'Pacifico', cursive; cursor: pointer;  z-index: 100; top: 15px; }
 
-#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid pink; color: pink; }
+#botao_menu i { background-color: white; border-radius: 20px; padding: 20px; border: 2px solid #8B8378; color: #8B8378; }
 
 #fechar { cursor: pointer; }
 
@@ -160,11 +160,11 @@ footer .fa-heart { color: red; }
 
 #menu_mobile a { color: #8B8378; cursor: pointer; }
 
-#menu_mobile li:hover { color:pink; }
+#menu_mobile li:hover { color:#8B8378; }
 
 #menu_mobile p:hover { color:purple; }
 
-#fechar { float: right;  right: 15px; top: 10px; background-color: pink; color: white; border-radius: 20px; width: 30px; height: 30px;}
+#fechar { float: right;  right: 15px; top: 10px; background-color: #8B8378; color: white; border-radius: 20px; width: 30px; height: 30px;}
 
 
 
