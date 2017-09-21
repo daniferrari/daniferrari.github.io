@@ -8,7 +8,7 @@ i { color: #F4A460; }
 
 /* Menu */
 
-#menu { text-align: center; position: fixed; padding-top: 20px; z-index: 10; width: 100%; top: -10px; background: url("images/fundo3.png"); height: 40px; }
+#menu { text-align: center; position: fixed; padding-top: 20px; z-index: 10; width: 100%; top: -10px; background: url("images/fundo3.png"); height: 40px; border: 2px solid #8B8378;}
 
 #menu li { display: inline; color: #8B8378; cursor: pointer; padding-right: 10px; font-family: 'Pacifico', cursive; text-shadow: 1px 1px white;}
 
@@ -21,13 +21,13 @@ i { color: #F4A460; }
 
 #titulo-principal { position: relative; z-index: 10; }
 
-#titulodiv h1 { text-shadow: 2px 1px white; top: 50px;  color:#8B8378; font-family: 'Pacifico', cursive; text-align: center; font-size: 24px; z-index: 100;}
+#titulodiv h1 { text-shadow: 2px 1px white; top: 50px;  color:#8B8378; font-family: 'Pacifico', cursive; text-align: center; font-size: 24px; }
 
 #titulodiv .fa-heart { color: rgb(231, 69, 112); padding: 15px;}
 
-#data { color: #8B8378; text-align: center; margin-top: 15px; font-family: 'Pacifico', cursive; font-size: 20px; position: relative; top: 170px; z-index: 100;}
+/*#data { color: #8B8378; text-align: center; margin-top: 15px; font-family: 'Pacifico', cursive; font-size: 20px; position: relative; top: 170px; } */
 
-#titulodiv { position: fixed; z-index: -10; top: -50px;  background-size: 100% 50%; height: 120vh; }
+#titulodiv { position: fixed; z-index: -10; top: -20px; }
 
 #fundo { background-color: white; }
 
@@ -40,6 +40,8 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 .conteudo { position: relative; top: 150px; max-width: 1600px;} 
 
 .partes { min-height: 100vh; width: 100%;  max-height: 1100px;  }
+
+.partestitulo {  }
 
 #eventosdiv { background-color:#FFEFDB; height: 800px;  background-size: 100% 100%; border-bottom: 2px solid #8B8378; position: relative; top: 40px;}
 
@@ -67,8 +69,6 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 #conteudo { margin-top: 20px; margin:auto; }
 
 #conteudo img { width: 270px !important; height: 270px !important;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19) ; border: 2px solid white; margin: 35px; max-height:270px !important; max-height: 270px !important; padding: 15px;}
-
-.enfeite { width: 60%; height: 100px;  }
 
 .img-enfeite {position: relative; width: 50%; height: 250px; margin: auto; top: 50px; text-align: center;}
 
@@ -117,11 +117,11 @@ h2 { text-align: center; font-family: 'Pacifico', cursive; font-size: 27px; colo
 
 /* Controladores */
 
-figure { display: block; height: 1180vh; z-index: -2; overflow: hidden; border: 5px solid white;}
+figure { display: block; width: 100vw; height: 100vh; z-index: -2;  }
 
-#slider img, #slider a { width: 100% !important; height: 1180vh; }
+#slider img, #slider a { width: 100vw !important; height: 100vh !important;}
 
-#teste {z-index: -3; width: 100%; height: 1180vh; margin-right: auto; margin-left: auto; position: relative; top: 120px; }
+/* #teste {z-index: -3; width: 100vw; position: relative; top: 120px;height: 1000px !important; } */
 
 
 /*footer*/
@@ -238,12 +238,12 @@ footer .fa-heart { color: red; }
 
 @media screen and ( min-width: 1480px ) {
 
-	figure { height: 71vh; max-height: 600px; }
+	/* figure { height: 71vh; max-height: 600px; } 
 
 	#slider img, #slider a { height: 70vh; max-height: 600px; }
 
 	#teste { width: 700px; height: 70vh; max-height: 600px; top: 15vh; }
-
+*/
 	#data { top: 65vh; background-color: white; z-index: 100;}
 
 	.conteudo { max-width: 1250px; margin-left: auto; margin-right: auto; } 
